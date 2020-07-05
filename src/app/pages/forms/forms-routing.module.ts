@@ -6,6 +6,7 @@ import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { ImageSearchComponent } from './image-search/image-search.component';
 
 const routes: Routes = [
   {
@@ -13,8 +14,8 @@ const routes: Routes = [
     component: FormsComponent,
     children: [
       {
-        path: 'inputs',
-        component: FormInputsComponent,
+        path: 'search',
+        component: ImageSearchComponent,
       },
       {
         path: 'layouts',
